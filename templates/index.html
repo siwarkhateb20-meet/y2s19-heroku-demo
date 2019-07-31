@@ -15,7 +15,7 @@
 
 </head>
 <body>
-
+<h1 id="bye">my favorite food is sushi ^v^ </h1>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -30,11 +30,15 @@
 
 
 
-	<h1 id="bye">my favorite food is sushi ^v^ </h1>
-	<div class="carousel-inner">
-    <div class="item active">
+	
+	<div class="carousel-inner" style="position: relative;
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    margin: auto;">
+    <div class="item active" style="width: 300px; text-align: center;">
 	<img src="{{ url_for('static', filename='sushi.jpg') }}" height ="200">
-
+	</div>
 
 	 <div class="item">
 	<img src="{{ url_for('static', filename='sushi2.jpg') }}" height ="200">
@@ -42,7 +46,7 @@
 
 
  <div class="item">
-	<img src="{{ url_for('static', filename='lobster.jpg') }}"height ="200">
+	<img src="{{ url_for('static', filename='lobster.jpg') }}" height ="200">
 </div>
 
  <div class="item">
@@ -56,7 +60,7 @@
 
 
 	<div class="item">
-	<img src="{{ url_for('static', filename='lobster1.jpg') }}" height ="200">
+	<img src="{{ url_for('static', filename='lobster1.jpg') }}" height ="500">
 </div>
 
 
@@ -64,7 +68,7 @@
 	<img src="{{ url_for('static', filename='spaghetti1.jpg') }}" height ="200">
 </div>
 </div>
-
+</div>
 
 	<p id="hi">its my favorite food because its flavorful and tasty and you have so many options with the flavors</p>
 
