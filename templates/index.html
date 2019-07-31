@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+	<h1 id="bye">my favorite food is sushi ^v^ </h1>
+	<p id="hi">its my favorite food because its flavorful and tasty and you have so many options with the flavors</p>
+
+	{% if opposite_day%}
+	    <ol id="untasty">"burgers", "hotdogs" </ol>
+	{% else %}
+	    <p>{{favo_food}}</p>
+	{% endif %}	
+		 <!-- Previous for-loop -->
+
+</body>
+</html>
