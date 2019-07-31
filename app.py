@@ -7,7 +7,7 @@ def home_page():
 
 	return render_template("index.html",
     	favo_food=favo_food,
-		opposite_day=True)
+		opposite_day=False)
 
 if __name__ == '__main__':
 	app.run(debug = True)
